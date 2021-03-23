@@ -1,0 +1,13 @@
+bin/
+target/
+build/
+.bloop/
+.bsp/
+.idea/
+.metals
+project/project/
+project/target/
+*.class
+*.log
+*.iml
+.idea
