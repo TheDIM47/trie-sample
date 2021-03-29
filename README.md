@@ -2,8 +2,7 @@
 
 ### Usage
 
-This is a normal sbt project. You can compile code with `sbt compile`, 
-run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`.
 
 #### Search words in files.
 
@@ -17,7 +16,9 @@ Note: single char words (like `'a'` or `'1'`) will be ignored
 
 1. Clone repository
 2. cd %search%
-3. `sbt run` 
+3. `sbt run`
+
+`sbt run` will print short help file
 
 #### Command mode
 
@@ -34,7 +35,7 @@ no matches found
 > :quit
 ```
 
-#### Run mode
+#### Auto mode
 
 Usage: `sbt "run <dir> word {more search words}"`
 
